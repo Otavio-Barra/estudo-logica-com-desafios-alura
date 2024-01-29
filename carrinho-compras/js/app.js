@@ -8,7 +8,7 @@ function adicionar() {
 
   const productsValue = Number(inputProducts.replace(/\D/g, ''));
 
-  const sumTotal = totalValue + productsValue * quantityProducts;
+  const sumTotal = totalValue + (productsValue * quantityProducts);
 
   spanTotalValue.innerText = `R$${sumTotal}`
 
